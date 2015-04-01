@@ -20,7 +20,7 @@ protected:
     Deck mainDeck;
     shared_ptr<Player> allPlayers;
 public:
-    //instance method?
+    shared_ptr<Game> instance;
     void start_game(const string&);
     
 };

@@ -7,8 +7,8 @@
 //
 
 #include "Player.h"
-Player::Player(){
-    string filename = this->playerName;
+Player::Player(string filename){
+    this->playerName=filename;
     ifstream infile(filename);
     cout << "filename is " << filename << endl;
     ifstream ifs;

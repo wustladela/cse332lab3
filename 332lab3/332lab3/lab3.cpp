@@ -18,7 +18,10 @@
 #include <string>
 #include <algorithm>
 #include "Hand.h"
-
+#include "Player.h"
+#include "Game.h"
+#include "Deck.h"
+#include "card.h"
 using namespace std;
 
 void printHands(vector<Hand> &h){
@@ -60,6 +63,9 @@ void dostuff(Deck &d){
 
 int main(int argc, char * argv[])
 {
+    
+    
+    
     bool b = false;
     if (argc == 2)
     {
@@ -102,6 +108,14 @@ int main(int argc, char * argv[])
             }
         }
     }
+    
+    shared_ptr<Player> player1 = make_shared<Player>("/Users/adelagao/332lab3/player1.txt");
+    cout << player1->playerName << endl;
+    cout << player1->numHandsWon << endl;
+    
+    /**
+     A public static instance method that takes no parameters and returns a copy of the static pointer member variable. If the static pointer member variable is singular (points to nothing), the method should throw an instance_not_available exception (how you define this exception is up to you).
+     **/
     return 0;
     
 }

@@ -37,7 +37,7 @@ struct Player{
     Hand playerCards;
     unsigned int numHandsWon;
     unsigned int numHandsLost;
-    Player();
+    Player(string filename);
 };
 
 

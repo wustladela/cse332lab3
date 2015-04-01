@@ -7,3 +7,10 @@
 //
 
 #include "Game.h"
+#include "Player.h"
+static shared_ptr<Game> gamePtr(){
+    shared_ptr<Game> member1 = make_shared<Game>();
+    member1=nullptr;
+    cout<< "created a member1 variable" << endl;
+    return member1;
+}

@@ -43,7 +43,7 @@ class Deck
 public:
     Deck(char * filename);
     Deck();
-    error_code shuffle();
+    error_type shuffle();
     vector<Hand> hands_;
     void load(char * filename);
     //template<class RandomIt, class UniformRandomNumberGenerator>

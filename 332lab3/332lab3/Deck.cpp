@@ -89,7 +89,7 @@ void Deck::load(char * filename)
     //	hands_.push_back(h);
     //}
 }
-error_type shuffle(){
+error_type Deck::shuffle(){
     std::random_device rd;
     std::mt19937 g(rd());
     if (cards_.size() > 0){
