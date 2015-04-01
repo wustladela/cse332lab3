@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89C3A3221AC8DF0F007A6679 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3A3211AC8DF0F007A6679 /* main.cpp */; };
+		89C3A3221AC8DF0F007A6679 /* lab3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3A3211AC8DF0F007A6679 /* lab3.cpp */; };
+		89C3A32A1AC8DF22007A6679 /* card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3A3281AC8DF22007A6679 /* card.cpp */; };
+		89C3A32D1AC8DF92007A6679 /* Deck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3A32B1AC8DF92007A6679 /* Deck.cpp */; };
+		89C3A3301AC8DFCC007A6679 /* fileParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3A32E1AC8DFCC007A6679 /* fileParser.cpp */; };
+		89C3A3331AC8DFF5007A6679 /* Hand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3A3311AC8DFF5007A6679 /* Hand.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,15 @@
 
 /* Begin PBXFileReference section */
 		89C3A31E1AC8DF0F007A6679 /* 332lab3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 332lab3; sourceTree = BUILT_PRODUCTS_DIR; };
-		89C3A3211AC8DF0F007A6679 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		89C3A3211AC8DF0F007A6679 /* lab3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lab3.cpp; sourceTree = "<group>"; };
+		89C3A3281AC8DF22007A6679 /* card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = card.cpp; sourceTree = "<group>"; };
+		89C3A3291AC8DF22007A6679 /* card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = card.h; sourceTree = "<group>"; };
+		89C3A32B1AC8DF92007A6679 /* Deck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Deck.cpp; sourceTree = "<group>"; };
+		89C3A32C1AC8DF92007A6679 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		89C3A32E1AC8DFCC007A6679 /* fileParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fileParser.cpp; sourceTree = "<group>"; };
+		89C3A32F1AC8DFCC007A6679 /* fileParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileParser.h; sourceTree = "<group>"; };
+		89C3A3311AC8DFF5007A6679 /* Hand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hand.cpp; sourceTree = "<group>"; };
+		89C3A3321AC8DFF5007A6679 /* Hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +69,15 @@
 		89C3A3201AC8DF0F007A6679 /* 332lab3 */ = {
 			isa = PBXGroup;
 			children = (
-				89C3A3211AC8DF0F007A6679 /* main.cpp */,
+				89C3A3211AC8DF0F007A6679 /* lab3.cpp */,
+				89C3A3281AC8DF22007A6679 /* card.cpp */,
+				89C3A3291AC8DF22007A6679 /* card.h */,
+				89C3A32B1AC8DF92007A6679 /* Deck.cpp */,
+				89C3A32C1AC8DF92007A6679 /* Deck.h */,
+				89C3A32E1AC8DFCC007A6679 /* fileParser.cpp */,
+				89C3A32F1AC8DFCC007A6679 /* fileParser.h */,
+				89C3A3311AC8DFF5007A6679 /* Hand.cpp */,
+				89C3A3321AC8DFF5007A6679 /* Hand.h */,
 			);
 			path = 332lab3;
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89C3A3221AC8DF0F007A6679 /* main.cpp in Sources */,
+				89C3A3301AC8DFCC007A6679 /* fileParser.cpp in Sources */,
+				89C3A32D1AC8DF92007A6679 /* Deck.cpp in Sources */,
+				89C3A3221AC8DF0F007A6679 /* lab3.cpp in Sources */,
+				89C3A32A1AC8DF22007A6679 /* card.cpp in Sources */,
+				89C3A3331AC8DFF5007A6679 /* Hand.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

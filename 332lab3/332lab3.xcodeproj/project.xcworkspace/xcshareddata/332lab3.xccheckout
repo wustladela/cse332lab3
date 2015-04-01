@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D49B91F0-CDA5-492D-B6BA-11E9DF9D02F2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>332lab3</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ABEC04660CA910210EE401C26197095244EDDA40</key>
+		<string>https://github.com/wustladela/cse332lab3.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>332lab3/332lab3.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ABEC04660CA910210EE401C26197095244EDDA40</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wustladela/cse332lab3.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ABEC04660CA910210EE401C26197095244EDDA40</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ABEC04660CA910210EE401C26197095244EDDA40</string>
+			<key>IDESourceControlWCCName</key>
+			<string>332lab3</string>
+		</dict>
+	</array>
+</dict>
+</plist>
