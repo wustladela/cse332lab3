@@ -28,6 +28,12 @@ vector<Card> cards_;
 vector<Hand> hands_;
 int deck_size_;
 
+void add_card(Card & newCard){
+    cards_.push_back(newCard);
+}
+
+
+
 Deck::Deck(){}
 
 Deck::Deck(char * filename)
@@ -83,7 +89,7 @@ void Deck::load(char * filename)
     //	hands_.push_back(h);
     //}
 }
-error_type Deck::shuffle(){
+error_type shuffle(){
     std::random_device rd;
     std::mt19937 g(rd());
     if (cards_.size() > 0){

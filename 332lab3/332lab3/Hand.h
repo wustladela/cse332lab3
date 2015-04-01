@@ -22,7 +22,8 @@ class Hand
     vector<Card> hand_;
     mutable int size_;
     int const size();
-    
+    Card& operator[](size_t);
+    void remove_card(size_t);
     const bool operator== (const Hand &) const;
     friend void operator<< (const ostream &, const Hand &);
     friend void

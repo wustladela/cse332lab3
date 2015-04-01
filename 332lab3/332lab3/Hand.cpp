@@ -24,6 +24,23 @@ using namespace std;
 vector<Card> hand_;
 int size_;
 
+Card& Hand::operator[](size_t indexOfCard)
+{
+    if (!(indexOfCard<0) && indexOfCard < hand_.size()) {
+         return hand_[indexOfCard];
+            }
+    else throw;//TODO: throw what?
+   
+}
+void Hand::remove_card(size_t indexToRemove){
+    if (!(indexToRemove<0) && indexToRemove<hand_.size()) {
+        hand_.erase(hand_.begin()+indexToRemove);
+    }
+    else{
+        throw;//TODO: throw what?
+    }
+    
+}
 Hand::Hand(){}
 
 Hand::Hand(const Hand &h)

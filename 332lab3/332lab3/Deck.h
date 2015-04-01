@@ -31,6 +31,7 @@ using namespace std;
 
 class Deck
 {
+    void add_card(Card &);
     friend const bool operator<< (const ostream &, const Deck &);
     friend void dostuff(Deck &);
     friend bool check_valid(string word);
