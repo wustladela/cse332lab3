@@ -18,11 +18,19 @@ class Game{
 protected:
     static shared_ptr<Game> gamePtr;
     Deck mainDeck;
-    shared_ptr<Player> allPlayers;
-public:
-    shared_ptr<Game> instance;
-    void start_game(const string&);
+    shared_ptr<vector<Player>> allPlayers;
     
+public:
+    void add_player(const string&);
+    void stop_game();//how to make static?
+    shared_ptr<Game> instance();//how to  make static?
+    void start_game(const string&);
+    int virtual before_return (Player&)=0;
+    int virtual turn (Player&)=0;
+    int virtual after_turn (Player&)=0;
+    int virtual before_round ()=0;
+    int virtual round ()=0;
+    int virtual after_round ()=0;
 };
 
 

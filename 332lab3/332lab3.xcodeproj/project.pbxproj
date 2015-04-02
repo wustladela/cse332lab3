@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		894617D41ACD0A4600AC34F0 /* FiveCardDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 894617D21ACD0A4600AC34F0 /* FiveCardDraw.cpp */; };
 		899E47061ACB9AB800CCCB7B /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 899E47041ACB9AB800CCCB7B /* Player.cpp */; };
 		899E47091ACB9F3200CCCB7B /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 899E47071ACB9F3200CCCB7B /* Game.cpp */; };
 		89C3A3221AC8DF0F007A6679 /* lab3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3A3211AC8DF0F007A6679 /* lab3.cpp */; };
@@ -29,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		894617D21ACD0A4600AC34F0 /* FiveCardDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FiveCardDraw.cpp; sourceTree = "<group>"; };
+		894617D31ACD0A4600AC34F0 /* FiveCardDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveCardDraw.h; sourceTree = "<group>"; };
 		899E47041ACB9AB800CCCB7B /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 		899E47051ACB9AB800CCCB7B /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		899E47071ACB9F3200CCCB7B /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				899E47051ACB9AB800CCCB7B /* Player.h */,
 				899E47071ACB9F3200CCCB7B /* Game.cpp */,
 				899E47081ACB9F3200CCCB7B /* Game.h */,
+				894617D21ACD0A4600AC34F0 /* FiveCardDraw.cpp */,
+				894617D31ACD0A4600AC34F0 /* FiveCardDraw.h */,
 			);
 			path = 332lab3;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 				89C3A3301AC8DFCC007A6679 /* fileParser.cpp in Sources */,
 				89C3A32D1AC8DF92007A6679 /* Deck.cpp in Sources */,
 				899E47061ACB9AB800CCCB7B /* Player.cpp in Sources */,
+				894617D41ACD0A4600AC34F0 /* FiveCardDraw.cpp in Sources */,
 				89C3A3221AC8DF0F007A6679 /* lab3.cpp in Sources */,
 				89C3A32A1AC8DF22007A6679 /* card.cpp in Sources */,
 				89C3A3331AC8DFF5007A6679 /* Hand.cpp in Sources */,
