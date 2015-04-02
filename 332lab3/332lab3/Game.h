@@ -23,7 +23,7 @@ protected:
 public:
     void add_player(const string&);
     void stop_game();//how to make static?
-    shared_ptr<Game> instance();//how to  make static?
+    static shared_ptr<Game> instance();//how to  make static?
     void start_game(const string&);
     int virtual before_return (Player&)=0;
     int virtual turn (Player&)=0;

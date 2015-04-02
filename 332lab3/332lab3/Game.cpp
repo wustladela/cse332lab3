@@ -11,11 +11,11 @@
 
 //TODO: Step 7: That pointer should be initialized to be singular (point to nothing).
 shared_ptr<Game> Game::instance(){
-    if (this->gamePtr==nullptr) {
+    if (gamePtr==nullptr) {
         throw "instance not available";
     }
     else{
-        return this->gamePtr;
+        return gamePtr;
     }
 }
 
